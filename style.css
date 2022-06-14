@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  font-size: 15px;
+  line-height: 18px;
+  position: relative;
+  font-weight: lighter;
+}
+
+h1 {
+  color: #816797;
+  font-family: sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #816797;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  color: #816797;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+a:hover {
+  color: black;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  margin: 25px 0px;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.profile-picture{
+  border-radius: 50%;
+}
+
+.btn-lewagon {
+  background-color: #816797;
+  padding: 10px 18px;
+  border-radius: 4px;
+  color: black;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+  font-size: 40px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .cointainer{
+    width: 450px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container{
+    width: 300px;
+  }
+}
